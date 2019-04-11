@@ -21,3 +21,11 @@ docker run --name postgresql -itd --restart always \
   sameersbn/postgresql:9.4-4 
   
  ```
+
+## postgresql service stop
+systemctl stop  postgresql-9.4.service
+
+
+## postgresql service start
+systemctl start  postgresql-9.4.service
+
